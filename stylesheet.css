@@ -1,0 +1,145 @@
+h1.start_text {
+	position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+    font-family: Impact;
+    text-shadow:
+    	-2px -2px 0 #000,
+    	2px -2px 0 #000,
+    	-2px 2px 0 #000,
+    	2px 2px 0 #000;
+}
+
+.intro_text {
+	font-family: times;
+	color: white;
+	text-align: center;
+	outline-color: white;
+	outline-width: 1px;
+	outline-style: solid;
+	outline-offset: 3px;
+}
+
+.parallax {
+    background-image: url("binary.jpg"); /* CHANGE THIS FOR THE IMAGE */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50px; /* CHANGE THIS VALUE TO INCREASE/DECREASE SIZE */
+}
+
+
+/* All Code For the Top Horizontal Navigation Bar */
+#top_nav_bar { /* the bar itselt */
+	background-color: blue;
+	height: 35px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#top_nav_bar ul { /* for the list */
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-align: center;
+}
+ 
+#top_nav_bar li { /* for the individual elements in the list */
+	display: inline;
+	padding: 40px;
+}
+
+#top_nav_bar a { /* to adjust the look of the elements; eliminate hyperlink look */
+	color: white;
+	vertical-align: middle;
+	font-family: Impact;
+}
+
+
+.div_left {
+    width:50px;
+    height: 420px;
+    display:block;
+    float: left;
+}
+
+.div_right {
+    width:700px;
+    height: 410px;
+    display:block;
+    float: right;
+    text-align: left;
+    color: white;
+    font-family: Copperplate;
+    outline-color: white;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+.left_col {
+	color: white;
+	width: 40%;
+	outline-color: white;
+	outline-style: solid;
+	outline-width: 1px;
+}
+
+.outline {
+	outline-color: white;
+	outline-style: solid;
+	outline-width: 1px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.outline_alternate {
+	outline-color: black;
+	outline-style: solid;
+	outline-width: 1px;
+}
+
+
+/* GIT-ONLY CLASSES */
+/* Units should preferably by a standard window size; 1080x720 is an example */
+.unit_format {
+	float: left;
+	width: 31%;
+	margin: 1%;
+	outline-width: 1px; 
+	outline-color: grey; 
+	outline-style: double;
+	font-size: 20px;
+	font-family: Arial;
+	color: grey;
+}
+
+p.margin_for_unit{
+	margin: 30px;
+	font-family: Verdana;
+}
+
+
+.profile_pic {
+	width: 25%;
+	height: 50%;
+	border-radius:350px;
+	background: url("profile.jpg") no-repeat;
+	margin-left: 34.5%;
+	margin-top: 4%;
+	background-size: cover;
+	background-position: 50% 50%;
+	box-shadow: 0 0 40px rgba(0, 0, 0, 200);
+}
+
+
+
+
+
+
+
+
